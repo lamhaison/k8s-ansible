@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+  - name: test network_plugin
+    debug: msg={{ kube_network_plugin }}
